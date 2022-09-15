@@ -1,0 +1,53 @@
+{
+  "emmet.includeLanguages": {
+    "vue-html": "html",
+    "javascript": "javascriptreact"
+  },
+  "files.eol": "\n",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": false,
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true,
+    "eslint.autoFixOnSave": false
+  },
+  "eslint.format.enable": true,
+  "editor.tabSize": 2,
+  "stylelint.enable": true,
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "vetur.format.defaultFormatter.js": "none",
+  "vetur.format.enable": false,
+  "vetur.validation.template": false,
+  "vetur.validation.script": false,
+  "vetur.validation.style": false,
+  "[vue]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "eslint.alwaysShowStatus": true,
+  "eslint.validate": [
+    "javascript",
+    "vue",
+    "html",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "stylelint.validate": ["css", "less", "postcss", "scss", "vue", "sass"],
+  "eslint.workingDirectories": [
+    ".eslintrc.js",
+    {
+      "mode": "auto"
+    }
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib",
+}

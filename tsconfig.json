@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+    },
+    "target": "esnext", // 指定输出 ECMAScript 版本，默认为 es5
+    "useDefineForClassFields": true,
+    "module": "esnext", // 指定输出模块规范，默认为 Commonjs
+    "moduleResolution": "node", // 指定使用哪种模块解析策略，默认为 Classic
+    "strict": true, // 启用所有严格的类型检查选项，默认为 true
+    "jsx": "preserve",
+    "sourceMap": true, // 启用 sourceMap，默认为 false
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "lib": [
+      "esnext",
+      "dom",
+      "WebWorker" // 项目中预计会用到 webworker，需要包含进来
+    ], // 编译需要包含的 API，默认为 target 的默认值
+    "skipLibCheck": true // 跳过导入第三方 lib 声明文件的类型检查，默认为 true
+  },
+  "include": [
+    "src/**/*.ts",
+    "src**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "components.d.ts",
+    "auto-imports.d.ts"
+  ], // 指定需要编译文件，默认当前目录下除了 exclude 之外的所有.ts,.d.ts,.tsx 文件
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ]
+}

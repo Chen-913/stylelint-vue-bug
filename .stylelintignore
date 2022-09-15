@@ -1,0 +1,23 @@
+# 其他类型文件
+*.js
+*.jsx
+*.ts
+*.tsx
+*.jpg
+*.png
+*.gif
+*.bmp
+*.jpeg
+*.svg
+*.mp4
+*.webm
+*.ogv
+*.webp
+*.woff
+
+# 测试和打包目录
+/mock/
+/dist/
+/node_modules/
+/public/*
+public/*

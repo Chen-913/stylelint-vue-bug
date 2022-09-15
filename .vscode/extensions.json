@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "Vue.volar",
+    "dbaeumer.vscode-eslint",
+    "formulahendry.auto-rename-tag",
+    "streetsidesoftware.code-spell-checker",
+    "editorconfig.editorconfig",
+    "stylelint.vscode-stylelint"
+  ]
+}
